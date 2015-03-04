@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Dodge</title>
+	</head>
+	<body bgcolor = "8DBAB7">
+		<h1 style = font-family:Algerian, align = center><font color = "A1141E">Kimberly and Mackenzie's Dodge the Falling Platforms Game</font></h1>
+		
+		<h3>Description</h3>
+		<p>Our game is a simple brick breaker style game where the player's goal is to destroy all of the bricks. 
+		The player controls the platform on the bottom by using the 'A' and 'D' keys to move left and right respectively. 
+		Using the platform to bounce the ball, the player must destroy every brick without letting the ball fall past the platform.</p>
+		<br />
+		
+		<h3>Reflection</h3>
+		<p> Personally, I think the game turned out pretty well with all the basic functions we had planned, 
+		but I wish we had more time to add extra functionalities such as power-ups. The hardest part of making 
+		this app was programming the blocks to move with two second increments between each other. Since the MIT 
+		App Inventor doesn't have a 'wait' function, we couldn't easily program the blocks within a loop. We ended 
+		up having to use five separate clocks, one for each block, to time the start of their movement. </p>
+		
+		<p>You can download our game <a href="https://github.com/kimberlymartin/kimberlymartin.github.io">here</a>! </p>
+		<hr />
+		
+		<img src="screencap3.PNG" />
+		<p>This screenshot shows the game after it has begun, with the player avoiding the incoming platforms above them. 
+		The score is displayed underneath the player and the platforms are moving downwards at varying speeds.</p>
+		<br />
+		<br />
+		
+		<img src="AndroidCode.PNG" />
+		<p>This specific set of code controls the player's movement. 
+		Every 10 milliseconds the program checks the orientation of the tablet and uses that information to move the player side to side accordingly. 
+		This required a lot of guessing variables and numbers to multiply and checking how that affected the movement.</p>
+	</body>
+</html>
